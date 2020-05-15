@@ -27,9 +27,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.Client" />
+      <module name="FakeQQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginAndRegistUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UI.LoginAndRegistUI" />
+      <module name="FakeQQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginAndRegistUI" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DB.Connect" />
       <module name="FakeQQ" />
@@ -38,6 +64,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.Server" />
+      <module name="FakeQQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LoginAndRegistUI" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.LoginAndRegistUI (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.LoginAndRegistUI (1)" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,34 +105,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589554521452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589554521452" />
     <state x="57" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589476735228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589476735228" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1589549917452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589549917452" />
     <state x="332" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589476734086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="332" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1589476734086" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589477927547">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589516642620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589477927547" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589477927547">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589516642620" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589552172872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589477927547" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589477927547">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589552172872" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589552172872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589477927547" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589477927547">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589552172872" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589552172872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589477927547" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1589296648464">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589552172872" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589552172872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589296648464" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589552172872" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1589516644545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589516644545" />
     <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589465370796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -93,9 +157,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589471747278" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589304504028">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589552388095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589304504028" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589552388095" />
   </component>
 </project>

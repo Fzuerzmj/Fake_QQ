@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 
 public class LoginAndRegistUI extends JFrame  {
 
@@ -12,18 +14,18 @@ public class LoginAndRegistUI extends JFrame  {
     private JButton loginSelect = new JButton("Login");  //点击此按钮跳往登录界面
     private JButton registSelect = new JButton("Regist");//点击此按钮跳往注册界面
 
+    DataOutputStream oStream;I
+    DatanputStream iStream;   //客户端的In（Out）putStream对象
+
     CardLayout cardLayout = new CardLayout();
 
-    public LoginAndRegistUI(){
+    public LoginAndRegistUI(DataInputStream inputStream,DataOutputStream outputStream){
         super("假 QQ");
         setBounds(200,200,500,400); //设置起始位置和大小
         setVisible(true);
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         Container c = getContentPane();
-
-
-
 
         // frameSize = new Dimension(600, 360);
         //ImageIcon imageIcon = new ImageIcon();
@@ -32,7 +34,7 @@ public class LoginAndRegistUI extends JFrame  {
 
         //setting of cardPanel
         cardPanel.setLayout(cardLayout);  //设置卡片布局
-        cardPanel.add("login",new panelOfLogin(new Dimension(600,360),new ImageIcon(Constants.IMAGE_URL_OF_LOGIN_BACKGROUND).getImage()));  //添加登陆的控制界面
+        cardPanel.add("login",new panelOfLogin(new Dimension(600,360),new ImageIcon(Constants.IMAGE_URL_OF_LOGIN_BACKGROUND).getImage(),iStream,oStream));  //添加登陆的控制界面
         cardPanel.add("regist",new PanelOfRegist(new Dimension(600,330),new ImageIcon(Constants.IMAGE_URL_OF_REGIST_BACKGROUND).getImage()));
 
 
@@ -49,18 +51,11 @@ public class LoginAndRegistUI extends JFrame  {
         controlPanel.add(loginSelect);
         controlPanel.add(registSelect);  //添加面板顶端选择按钮到控制面板
 
-
-
         //add conponents to lowest layer
         c.add(controlPanel,BorderLayout.NORTH);
         c.add(cardPanel,BorderLayout.CENTER);
-
-
-
-
+        setVisible(true);
     }
-
-
 
     /*内部类1：（事件监听器,监听登录和注册界面顶端的两个按钮，用以切换登录和注册按钮---------------------------------------------------------------------------*/
     class actOfChgLoginAndRegist implements ActionListener{   //更换登录和注册界面事件管理器
@@ -80,11 +75,12 @@ public class LoginAndRegistUI extends JFrame  {
 
 
     public static void main(String[] args) {
-        LoginAndRegistUI aaa = new LoginAndRegistUI();
-        aaa.setVisible(true);
-        System.out.println(Constants.IMAGE_URL_OF_LOGIN_BACKGROUND);
-
+        //LoginAndRegistUI aaa = new LoginAndRegistUI();
+        ///aaa.setVisible(true);
+        //System.out.println(Constants.IMAGE_URL_OF_LOGIN_BACKGROUND);
     }
+
+
 }
 
 
